@@ -1,0 +1,7 @@
+{
+    "description": "Template used by Qwen3-LoRA.",
+    "thinking_annotate": "<think>\n\n</think>",
+    "prompt_input": "<|im_start|>user\n{instruction}\n{input}<|im_end|>\n<|im_start|>assistant\n{output}<|im_end|>",
+    "prompt_no_instruction": "<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n{output}<|im_end|>",
+    "response_split": "<|im_end|>assistant"
+}
