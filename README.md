@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ## Preprocess Datasets
 Pre-train knowledge graph embeddings for building datasets and evaluation.
-处理前的数据集存在preprocess raw
+
 ```bash
 sh scripts/preprocess.sh
 ```
