@@ -5,7 +5,7 @@
 
 This paper extends KGED to a four-class classification task to identify which element of a triple is incorrect. To address this fine-grained reasoning challenge, we precompute high-order common neighbors between the head and tail entities to obtain topological evidence while reducing computational complexity. Furthermore, we introduce a mixture-of-experts adapter that maps both structural embeddings and high-order topological information into the text embedding space. 
 
-It can support knowledge verification and enhance the quality of automatic knowledge graph construction and GraphRAG systems. For more details, please refer to our paper[📄](https://www2026.thewebconf.org/calls/short-papers.html).
+It can support knowledge verification and enhance the quality of automatic knowledge graph construction and GraphRAG systems. For more details, please refer to our paper[📄](https://dl.acm.org/doi/abs/10.1145/3774904.3792894).
 
 ## Environment
 We recommend using Python 3.8+. Higher versions should also be compatible. To install dependencies, run:
@@ -57,8 +57,6 @@ python inference_kopa.py \
   --DATA_NAME "WN18RR" \
   > infer.log &
 ```
-
-## Baselines
 
 
 
